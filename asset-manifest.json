@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.039bf95e.css",
+    "main.js": "/static/js/main.c95a3783.js",
+    "static/media/BUSAA-logo.png": "/static/media/BUSAA-logo.739fd49d5d1c8600e3f8.png",
+    "static/media/Noam-Logo.png": "/static/media/Noam-Logo.47476af0b213023accc9.png",
+    "static/media/profilepicture.jpg": "/static/media/profilepicture.fa119af529369a63e0e2.jpg",
+    "static/media/Molloy, Noam - Resume.pdf": "/static/media/Molloy, Noam - Resume.73e0324e09846899add0.pdf",
+    "static/media/react-icon.svg": "/static/media/react-icon.4d8d2a0f00a11af1aae83669db370eb7.svg",
+    "index.html": "/index.html",
+    "main.039bf95e.css.map": "/static/css/main.039bf95e.css.map",
+    "main.c95a3783.js.map": "/static/js/main.c95a3783.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.039bf95e.css",
+    "static/js/main.c95a3783.js"
+  ]
+}
