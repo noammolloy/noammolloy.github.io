@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.039bf95e.css",
-    "main.js": "/static/js/main.c493c723.js",
+    "main.js": "/static/js/main.e42c6ec9.js",
+    "static/media/docket-designs1.png": "/static/media/docket-designs1.0f9584cc50d02abd65bd.png",
+    "static/media/docket-designs2.png": "/static/media/docket-designs2.0848af5ff5be94cf5472.png",
     "static/media/webkinz.png": "/static/media/webkinz.ff667da2f801f3e6a8ca.png",
+    "static/media/dsiScreenshot.png": "/static/media/dsiScreenshot.604f67f42b0df26945d6.png",
     "static/media/sueapp-redesign-1.png": "/static/media/sueapp-redesign-1.7acc5b5f1ad394d57281.png",
     "static/media/BUSAA-logo.png": "/static/media/BUSAA-logo.739fd49d5d1c8600e3f8.png",
     "static/media/d3js.png": "/static/media/d3js.4c8f56e494bf50615f34.png",
@@ -11,13 +14,14 @@
     "static/media/Noam-Logo.png": "/static/media/Noam-Logo.47476af0b213023accc9.png",
     "static/media/profilepicture.jpg": "/static/media/profilepicture.fa119af529369a63e0e2.jpg",
     "static/media/Molloy, Noam - Resume.pdf": "/static/media/Molloy, Noam - Resume.73e0324e09846899add0.pdf",
+    "static/media/dsi-logo.png": "/static/media/dsi-logo.3a0a49d866ebb37bfd69.png",
     "static/media/react-icon.svg": "/static/media/react-icon.cf4223356a469628ae942486b005ba86.svg",
     "index.html": "/index.html",
     "main.039bf95e.css.map": "/static/css/main.039bf95e.css.map",
-    "main.c493c723.js.map": "/static/js/main.c493c723.js.map"
+    "main.e42c6ec9.js.map": "/static/js/main.e42c6ec9.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.c493c723.js"
+    "static/js/main.e42c6ec9.js"
   ]
 }
