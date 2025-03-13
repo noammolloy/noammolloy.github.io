@@ -10,8 +10,9 @@ export const Container = styled.section`
   .contact-background{
     position: relative;
     top: 12rem;
-    background-color: #181c3c;
-    color: white;
+    // background-color: #181c3c;
+    background-color: var(--secondary);
+    color: var(--offColor);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
@@ -54,7 +55,7 @@ export const Container = styled.section`
             vertical-align: middle;
             
             path{
-              fill: white;
+              fill: var(--offColor);
             }
           }
 
@@ -72,6 +73,8 @@ export const Container = styled.section`
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       max-width: 75rem;
+      padding: 4rem 3rem;
+      gap: 1rem;
 
       .column.info p{
         display: block;

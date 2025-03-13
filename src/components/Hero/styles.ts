@@ -5,21 +5,26 @@ export const Container = styled.section`
   display: flex;
   justify-content: center;
   gap: 8rem;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   position: relative;
 
-  .hero-text{
+  background-image: url("../../assets/abstract-green-doodle.jpg"); /* Set the image URL */
+  background-repeat: repeat-x; /* Repeat the image horizontally */
+  background-size: auto; /* Use the image's original size */
+  background-position: top;
+
+  .hero-text {
     text-align: center;
 
-    & > p{
+    & > p {
       font-size: 1.8rem;
     }
-    h1{
+    h1 {
       font-size: 7rem;
     }
 
-    h3{
+    h3 {
       // color:var(--secondary);
       margin: 2rem auto;
       font-weight: 500;
@@ -27,51 +32,46 @@ export const Container = styled.section`
       max-width: 75rem;
     }
 
-    
-    p.small-resume {
+    p.small-intro {
+      font-size: 2rem;
+      font-weight: 600;
       margin-bottom: 5rem;
     }
   }
-// New added
-  .social-media{
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding-top:5rem;
-    padding-left:1rem;
 
-    img,span{
-      font-size: 3rem;
-      width: 3.5rem;
-    }
-  }
-
-
-
-  .hero-image{
-    img{
+  .hero-image {
+    img {
+      margin-top: 6rem;
       max-width: 500px;
       width: 25%;
       border-radius: 50%;
     }
   }
 
-
-
-  @media(max-width: 1130px){
-    // display: block;
-    // margin-top: 15%;
-    .hero-text{
-
-      h1{
+  @media (max-width: 1130px) {
+    .hero-text {
+      h1 {
         font-size: 5rem;
       }
     }
-    
   }
 
+  @media (max-width: 480px) {
+    .hero-text {
+      h1 {
+        font-size: 3.5rem;
+      }
 
+      h3 {
+        font-size: 2.5rem;
+      }
+    }
+    .hero-image {
+      img {
+        width: 40%;
+      }
+    }
+  }
 
   // .icons{
   //   > *{
@@ -95,5 +95,4 @@ export const Container = styled.section`
   //     height: 5vh;
   //   }
   // }
-
-`
+`;

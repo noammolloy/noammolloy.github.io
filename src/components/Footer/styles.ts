@@ -1,75 +1,82 @@
 import styled from "styled-components";
 
-
 export const Container = styled.footer`
-  background-color: #2b2b2b;
+  --secondColor: #e8ecd4;
   padding: 5rem 15rem;
   padding-top: 17rem !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  color: #e2cdfd;
+  color: var(--secondColor);
   height: 60rem;
 
-
-  .logo-image{
+  .logo-image {
     width: 10rem;
   }
 
-  p{
+  p {
     letter-spacing: 0.2rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
   }
-  .social-media{
+  .social-media {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
 
-    a{
+    a {
       padding: 1.5rem;
       background-color: var(--primary);
       border: solid;
       border-radius: 50%;
-      border-color: #e2cdfd;
-      transition:  0.25s;
-      
-      &:hover{
-        background-color: #e2cdfd;
-        
-        path{
+      border-color: var(--secondColor);
+      transition: 0.25s;
+
+      &:hover {
+        background-color: var(--secondColor);
+
+        path {
           fill: var(--primary);
         }
       }
-    
-      svg{
+
+      svg {
         width: 3.5rem;
         vertical-align: middle;
-        
-        path{
-          fill: #e2cdfd;
+
+        path {
+          fill: var(--secondColor);
         }
       }
     }
-
   }
-    
-  .react-icon{
+
+  .react-icon {
     width: 2.6rem;
     stroke: red;
   }
 
-
-  @media(max-width: 800px){
+  @media (max-width: 800px) {
     padding: 4rem 10rem;
     flex-direction: column;
     gap: 2rem;
     text-align: center;
   }
-  @media(max-width: 600px){
+  @media (max-width: 600px) {
     padding: 4rem 1rem;
+
+    .social-media {
+      gap: 3rem;
+
+      a {
+
+        svg {
+          width: 2.5rem;
+        }
+      }
+    }
   }
-`
+`;

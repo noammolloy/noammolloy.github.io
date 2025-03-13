@@ -19,7 +19,7 @@ export function Footer() {
       <p>Handcrafted by me</p>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/noam-molloy-b98b69253/"
+          href="https://www.linkedin.com/in/noam-molloy/"
           target="_blank"
           rel="noreferrer"
         >

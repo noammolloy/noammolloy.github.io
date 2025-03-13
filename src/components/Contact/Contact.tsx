@@ -24,17 +24,6 @@ export function Contact(){
             (914) 826-3642
           </p>
 
-          {/* <div className="contacts">
-            <div>
-            <a href="mailto:noammolloy@gmail.com"><img src={emailIcon} alt="Email" /></a> 
-              <a href="mailto:noammolloy@gmail.com">noammolloy@gmail.com</a>
-            </div>
-            <div>
-            <a href="tel:+19148263642"><img src={phoneIcon} alt="Phone No" /></a>
-              <a href="tel:+19148263642">(914) 826-3642</a>
-            </div>  
-          </div> */}
-
         </div>
       </div>
       

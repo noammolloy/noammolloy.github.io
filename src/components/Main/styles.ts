@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.main`
   position: relative;
   overflow-x: hidden;
@@ -19,14 +18,12 @@ export const Container = styled.main`
     margin: 20rem 0;
   }
     
-  // > *{
 
-  //   @media (max-width: 740px){
-  //     padding: 0 4rem;
-  //   }
+    @media (max-width: 600px){
+      hr {
+        margin: 10rem 0;
+      }
+    }
 
-  //   @media(max-width: 360px){
-  //     padding: 0 2rem;
-  //   }
   }
-`
+`;

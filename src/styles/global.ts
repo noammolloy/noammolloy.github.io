@@ -6,9 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
-    // --primary: #7004f4;
-    --primary: #6027e1;
-    --secondary: #74ACCB;
+    // --primary: #6027e1; //purple
+    --primary: #204434; //green
+    --secondary: #202832;
+    --offColor: #fffcf4;
     scroll-padding-top: 10rem;
 
     // &.light{
@@ -31,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     //       color: black;
          
     //       &.button{
-    //         color: white;
+    //         color: var(--offColor);
     //         }
     //     }
     //     .menu,.menu:before, .menu:after{
@@ -81,7 +82,7 @@ export const GlobalStyle = createGlobalStyle`
   // }
 
   html{
-    font-size: 62.5%;
+    font-size: 50%;
   }
 
   body{
@@ -89,7 +90,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     // background-color: var(--black);
     // color: #FFFF;
-    background-color: white;
+    background-color: var(--offColor);
     color: var(--black);
   }
 
@@ -100,7 +101,7 @@ export const GlobalStyle = createGlobalStyle`
 
   header.header{
     // transition: 0.5s;
-    background-color: white;
+    background-color: var(--offColor);
     a{
       transition: 0.5s;
       color: black;

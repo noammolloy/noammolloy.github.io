@@ -5,6 +5,7 @@ export const Container = styled.section`
   text-align: center;
   padding: 0;
   
+  
   .background-wrapper{
     background-color: var(--primary);
   }
@@ -13,6 +14,7 @@ export const Container = styled.section`
     padding: 10rem 10rem 27.5rem 10rem;
     max-width: 100rem;
     margin: 0 auto;
+    color: #e8ecd4;
 
     > p{
       font-size: 2rem;
@@ -26,13 +28,14 @@ export const Container = styled.section`
 
   .skills-wrapper{
     margin: 0 3rem;
+    
   }
 
   .about-skills{
     position: relative;
     bottom: 15rem;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--offColor);
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     max-width: 160rem;
@@ -73,9 +76,9 @@ export const Container = styled.section`
       line-height: 4rem;
     }
     
-    // li {
-    //   margin-top: 1rem; 
-    // }
+    &:not(:last-child){
+      border-bottom: 1px solid #E6ECF8;
+    }
 
 
   }
@@ -86,7 +89,7 @@ export const Container = styled.section`
     // border-bottom: 0.2rem solid var(--blue);
     font-size : 4rem;
     margin-top: 0rem;
-    color: white;
+    color: var(--offColor);
   }
 
   h3{
@@ -98,7 +101,7 @@ export const Container = styled.section`
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
-    color: white;
+    color: var(--offColor);
   }
   
   
@@ -107,6 +110,18 @@ export const Container = styled.section`
 
 
   @media only screen and (max-width: 480px) {
+    h2{
+      font-size: 3.5rem;
+    }
+
+    .about-text{
+      padding: 10rem 4rem 27.5rem 4rem;
+    }
+
+    .column{
+      padding: 5rem 5rem;
+    }
+
     .about-image {
       max-width: 100%;
       margin-top: 4rem;

@@ -89,7 +89,7 @@ export const Container = styled.main`
       
       .figure-text{
         opacity: 0; 
-        color: white;   
+        color: var(--offColor);   
         transition: opacity 0.75s ease;
         position: absolute;
         padding: 0 1.8rem;
