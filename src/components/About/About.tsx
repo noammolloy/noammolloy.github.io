@@ -53,7 +53,7 @@ export function About() {
           </div>
 
           <div className="column">
-            <h3>Beyond Code</h3>
+            <h3>And More</h3>
               <p>Beyond frontend and backend, I have experience in design, data science, and teaching CS</p>
             <h4>What I design:</h4>
               <p>UX, UI, Web, Apps, Logos</p>
