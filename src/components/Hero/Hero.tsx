@@ -16,7 +16,7 @@ export function Hero() {
     <Container id="home" > 
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000} animateOnce={true}>
-          <h1>Frontend Developer</h1>
+          <h1>Software Engineer</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000} animateOnce={true}>
           <h3>Transforming business needs into stunning visuals</h3>

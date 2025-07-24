@@ -1,16 +1,4 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
-import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
   return (
@@ -20,8 +8,8 @@ export function About() {
           <h2>Hi, I'm Noam. Nice to meet you.</h2>
 
           <p>
-            I'm a Frontend Developer with a passion for crafting engaging, user-friendly, and visually appealing web experiences. 
-            With expertise in HTML, CSS, TypeScript, and React, I specialize in bringing designs to life while ensuring seamless functionality 
+            I'm a Software Engineer with a passion for crafting engaging, user-friendly, and visually appealing web experiences. 
+            I specialize in bringing designs to life while ensuring seamless functionality 
             and responsiveness across devices.
   
           </p>
@@ -35,28 +23,38 @@ export function About() {
       <div className="skills-wrapper">
         <div className="about-skills">
           <div className="column">
-            {/* icon */}
             <h3>Frontend Developer</h3>
-              <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-            <h4>My Languages:</h4>
-              <p>HTML, SCSS, TypeScript</p>
-            <h4>Frameworks & Dev Tools:</h4>
+              <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+            <h4>Languages & Frameworks:</h4>
+              <p>React, Angular, TypeScript, HTML, SCSS</p>
+            <h4>Tools:</h4>
             <ul>
-              <li>React</li>
-              <li>Redux</li>
               <li>Tailwind CSS</li>
+              <li>Redux</li>
               <li>Next.js</li>
               <li>Node.js</li>
               <li>Component Libraries</li>
-              <li>JQuery</li>
-              <li>Github</li>
-              <li>VS Code</li>
             </ul>
           </div>
+
           <div className="column">
-            {/* icon */}
-            <h3>Designer</h3>
-             <p>I value simple content structure, clean design patterns, and thoughtful interactions</p>
+            <h3>Backend Developer</h3>
+             <p>I build scalable, reliable backend systems with a focus on architecture and maintainability.</p>
+            <h4>Languages & Frameworks:</h4>
+              <p>Ruby on Rails, Springboot, Python, Java, SQL</p>
+            <h4>Tools & Databases:</h4>
+            <ul>
+              <li>Redis</li>
+              <li>Flask</li>
+              <li>MongoDB</li>
+              <li>Jira</li>
+              <li>Postman</li>
+            </ul>
+          </div>
+
+          <div className="column">
+            <h3>Beyond Code</h3>
+              <p>Beyond frontend and backend, I have experience in design, data science, and teaching CS</p>
             <h4>What I design:</h4>
               <p>UX, UI, Web, Apps, Logos</p>
             <h4>Design Tools:</h4>
@@ -65,23 +63,10 @@ export function About() {
               <li>Pen & Paper</li>
               <li>Photoshop</li>
             </ul>
-          </div>
-          <div className="column">
-            {/* icon */}
-            <h3>All things coding</h3>
-              <p>Beyond front-end and design, I have experience in software development, data science, and teaching CS</p>
-            <h4>Other Languages:</h4>
-              <p>Python, Java, SQL, R, Ruby on Rails</p>
-            <h4>Frameworks, Libraries, Softwares:</h4>
+            <h4>Other Areas:</h4>
             <ul>
-              <li>Flask</li>
-              <li>MongoDB</li>
-              <li>pandas</li>
-              <li>scikit-learn</li>
-              <li>REST/SOAP APIs</li>
-              <li>Jira</li>
-              <li>Kanban</li>
-              <li>Postman</li>
+              <li>Data Analysis (R, Python, SQL)</li>
+              <li>Teaching & Mentorship</li>
             </ul>
           </div>
 

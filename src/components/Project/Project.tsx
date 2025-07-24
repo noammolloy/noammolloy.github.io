@@ -39,7 +39,7 @@ export function Project() {
     <Container id="projects">
 
       <h2>My Recent Work</h2>
-      <h3>Here are a few past design and other projects I've worked on. Want to see more?
+      <h3>Here are a few past projects I've worked on. Want to see more?
         <NavHashLink smooth to="#contact">
           &nbsp;Email me.
         </NavHashLink>
