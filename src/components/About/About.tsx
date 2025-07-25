@@ -41,7 +41,7 @@ export function About() {
             <h3>Backend Developer</h3>
              <p>I build scalable, reliable backend systems with a focus on architecture and maintainability.</p>
             <h4>Languages & Frameworks:</h4>
-              <p>Ruby on Rails, Springboot, Python, Java, SQL</p>
+              <p>Ruby on Rails, Spring Boot, Python, Java, SQL</p>
             <h4>Tools & Databases:</h4>
             <ul>
               <li>Redis</li>
